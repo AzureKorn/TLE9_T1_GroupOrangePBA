@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Share+Tech&display=swap');
+
+body {
+            margin: 0;
+        }
+        .navbar {
+            background-color: #eea435;
+            background-image: linear-gradient(to bottom, #eea435, #e67f2b);
+            overflow: hidden;
+            border-bottom: 10px solid #d66321;
+        }
+        .navbar-logo img {
+            height: 150px;
+            width: 185px;
+            margin: 5px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+
+        .navbar li {
+        list-style: none;
+        display: inline-block;
+        font-size: 30px;
+        padding-right: 20px;
+        }
+
+        .navbar a {
+        text-decoration: none;
+        color: white;
+        font-family: Share Tech, sans-serif;
+        }
+
+        mark {
+            background-color: white;
+            color: #e67f2b;
+            text-decoration: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .title {
+            color: #e67f2b;
+            font-family: Fredoka, sans-serif;
+            font-size: 35px;
+        }
+
+        .sect {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            border: 3px solid #bed0d8;
+            font-family: Share Tech, sans-serif;
+        }
+
+        .s2 {
+            color: #b34410;
+            border-bottom: 5px solid #b34410;
+            font-size: 28px;
+        }
+
+        .illus {
+            max-width: 35%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 5px black;
+        }
+
+        .vid {
+            border-radius: 10px;
+            box-shadow: 0 0 5px black;
+        }
